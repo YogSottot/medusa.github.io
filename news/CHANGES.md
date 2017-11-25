@@ -1,3 +1,52 @@
+### v0.1.18:
+
+[full changelog](https://github.com/pymedusa/Medusa/milestone/26?closed=1)
+
+**New Features**:
+- Add ArcheTorrent provider
+- Enhance EliteTracker
+- Added test framework for testing stubbed search providers (added a limited set of providers)
+
+**Fixes**:
+- Don't exception when invalid language code
+- Fix moving torrent feature not working with remote client
+- Fix BacklogSearchScheduler.next_run
+- Cleanup of plex notifier
+- Subliminal: Log error instead of traceback when can't refine mkv
+- Fix get scene_numbering get_json()
+- Fix EliteTracker empty result
+- Yggtorrent: Fix the parsing of download link.
+- Use latest Subliminal develop branch
+- Added skydeutschland network logo
+- Use get_json(), which has build in exception handling.
+- Log torrent name when content is empty
+- Don't search subtitles for archived episodes
+- Use newest nodejs for tests
+- Use the Medusa version in the user agent
+- Fix post-processing ignoring files in subdirectories. Fixes #3255
+- Fixed custom newznab providers not saving the categories after restart.
+- Remove dark background for add existing show
+- Attach on click to document.
+- Try to remove the I202 warnings.
+- Don't warn missing info hash for nzb downloads
+- Only PROPER from same streaming service
+- Fix use scene exception, when a show has season scene name exceptions.
+- Don't add artwork_prefix to image if empty string. Fixes #3225
+- Show full (un-ellipsed) release name when clicking on it.
+- Fix folder checks for post-processing. Fixes #3219
+- Use MedusaSafeSession for sabnzbd client. Fixes #3203
+- Add magnets support for newznab providers. Fixes #3213
+- Allow no label to be set for qbittorrent client. Fixes #3211
+- Fix duplicate settings for newznab providers. Fixes #3207
+- Add log to PostProcessing exception
+- Make sure countries and country_codes always have at least an empty s…
+- Add Video category to yggtorrent
+- Update Torrent9 URL
+- The medusa parser can give back multiple series titles in a list
+- Fix ssl verification.
+- Fix imdb info
+- Hotfix broken update
+
 ### v0.1.17:
 
 [full changelog](https://github.com/pymedusa/Medusa/milestone/26?closed=1)
