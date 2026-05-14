@@ -3331,6 +3331,7 @@ truTV (UK):Europe/London
 truTV:US/Eastern
 tv asahi:Asia/Tokyo
 tvK (US):US/Eastern
+tvN Story:Asia/Seoul
 tvN:Asia/Seoul
 tvb8 (US):US/Eastern
 tvk:Asia/Tokyo
